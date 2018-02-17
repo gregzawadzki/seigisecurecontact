@@ -106,6 +106,7 @@ class seigisecurecontact extends Module {
 		$output .= $this->displayForm();
 		$output .= '<div style="font-size: 1.3em; padding: 15px;">';
 		$output .= '<p>'.$this->l('This module adds Google reCaptcha scripts to your site. Your site must have google API access to use ReCaptcha').'</p>';
+		$output .= '<p>'.$this->l('You can always get newest version from github or directly from our site: ').'<a href="http://pl.seigi.eu/module/seigisecurecontact.html">http://pl.seigi.eu/module/seigisecurecontact.html</a></p>';
 		$output .= '<p>'.$this->l('You can obtain them from this URL').' <a href="https://www.google.com/recaptcha/admin">https://www.google.com/recaptcha/admin</a></p>';
 		$output .= '</div>';
 		return $output;

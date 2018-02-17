@@ -14,6 +14,7 @@ $_MODULE['<{seigisecurecontact}prestashop>seigisecurecontact_f61c8e65bbed60d8144
 $_MODULE['<{seigisecurecontact}prestashop>seigisecurecontact_fe5d926454b6a8144efce13a44d019ba'] = 'Niepoprawna wartość konfiguracji';
 $_MODULE['<{seigisecurecontact}prestashop>seigisecurecontact_c888438d14855d7d96a2724ee9c306bd'] = 'Ustawienia zapisane';
 $_MODULE['<{seigisecurecontact}prestashop>seigisecurecontact_2f742b48d9c9c0d4d097a3a76751e51d'] = 'Ten moduł dodaje Google ReCapcha do Twojej strony. Przyjazny użytkownikom system weryfikacji \"Nie jestem robotem\". Aby korzystać z modułu potrzebujesz kluiczy.';
+$_MODULE['<{seigisecurecontact}prestashop>seigisecurecontact_324a53cc16baa033de29ab3eede0a497'] = 'Najnowsza wersja zawsze dostępna na naszym koncie github, a wersja gotowa do instalacji na naszej stronie, pod adresem:';
 $_MODULE['<{seigisecurecontact}prestashop>seigisecurecontact_7b0078006502e9d1e821f4224686d68f'] = 'Klucze możesz otrzymać tutaj';
 $_MODULE['<{seigisecurecontact}prestashop>seigisecurecontact_f4f70727dc34561dfde1a3c529b6205c'] = 'Ustawienia';
 $_MODULE['<{seigisecurecontact}prestashop>seigisecurecontact_20f4f54341e68e01b853e9483e5fe37f'] = 'Site Key (Klucz Publiuczny)';

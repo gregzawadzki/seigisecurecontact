@@ -1,6 +1,9 @@
 # seigisecurecontact
 Prestashop module intended to stop spammers from using contact form with Google ReCaptcha  
 
+# Ready to install version
+We always have ready to install version (via admin panel) at: [http://pl.seigi.eu/module/seigisecurecontact.html](http://pl.seigi.eu/module/seigisecurecontact.html)
+
 ## Available translations
 English (default)  
 Polish (translated)  
