@@ -59,6 +59,7 @@ class seigisecurecontact extends Module {
 	}
 	public function verifyReCaptcha($param) {
         /**
+		 * Taken from: https://github.com/google/recaptcha/blob/master/src/ReCaptcha/RequestMethod/Post.php
          * PHP 5.6.0 changed the way you specify the peer name for SSL context options.
          * Using "CN_name" will still work, but it will raise deprecated errors.
          */
