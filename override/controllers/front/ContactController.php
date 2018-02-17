@@ -19,7 +19,6 @@ class ContactController extends ContactControllerCore
 				'response' => Tools::getValue('g-recaptcha-response'),
 				'remoteip' => $_SERVER["REMOTE_ADDR"],
 			));
-			var_dump($response);
 			if($response['success']){
 				parent::postProcess();
 			} else {
