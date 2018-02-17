@@ -1,5 +1,10 @@
 # seigisecurecontact
-Prestashop module intended to stop spammers from using contact form with Google ReCaptcha
+Prestashop module intended to stop spammers from using contact form with Google ReCaptcha  
+
+##Available translations
+English (default)  
+Polish (translated)  
+**Feel free to submit translations by pull requests:)**
 
 # How it works
 - Adds dynamically reCaptcha check to contact form
