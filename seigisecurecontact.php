@@ -1,10 +1,9 @@
 <?php
 
 /*
- * Stworzono przez SEIGI http://pl.seigi.eu/
- * Wszelkie prawa zastrzeżone.
- * Zabrania się modyfikacji używania i udostępniania kodu bez zgody lub odpowiedniej licencji.
- * Utworzono  : 2018-02-17
+ * Created by / Stworzono przez SEIGI http://pl.seigi.eu/
+ * MIT License
+ * Utworzono  : Feb 17, 2018
  * Author     : SEIGI - Grzegorz Zawadzki <kontakt@seigi.eu>
  */
 
