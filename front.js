@@ -7,5 +7,10 @@
 
 
 $(function(){
-	$('#submitMessage').after('<div style="text-align: center; margin: 10px"><div class="g-recaptcha" data-sitekey="' + seigi_recap_pub + '" style="display: inline-block"></div></div>');
+	var html = '<div style="text-align: center; margin: 10px"><div class="g-recaptcha" data-sitekey="' + seigi_recap_pub + '" style="display: inline-block"></div></div>';
+	if($('#submitMessage').length) {
+		$('#submitMessage').after(html);
+	} else {
+		$('.contact-form footer').before(html);
+	}
 });
