@@ -39,6 +39,7 @@ class seigisecurecontact extends Module {
 	
 	public function hookdisplayHeader($hook_args) {
 		if($this->context->controller->php_self = 'contact'){
+			$this->context->controller->addJS($this->_path.'front.js');
 			$this->smarty->assign(array(
 				'recap_public' => Configuration::get('SRECAP_PUBLIC')
 			));
