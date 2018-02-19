@@ -19,7 +19,7 @@ class seigisecurecontact extends Module {
 	public function __construct() {
 		$this->name = 'seigisecurecontact';
 		$this->tab = 'frontend';
-		$this->version = '1.0.1';
+		$this->version = '1.1.1';
 
 		$this->author = 'SEIGI Grzegorz Zawadzki';
 		$this->ps_versions_compliancy = array('min' => '1.5', 'max' => '1.7');
