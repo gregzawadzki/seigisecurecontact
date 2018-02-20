@@ -1,5 +1,9 @@
-# seigisecurecontact
+# Secure Contact Form with Prestashop 1.5 and 1.6
 Prestashop module intended to stop spammers from using contact form with Google ReCaptcha  
+
+## Does not work with 1.7
+Prestashop 1.7 has contact form as separate module. It cannot be overriden and thus this method will not work at all.  
+It will display reCaptcha, but it will allow email being sent anyway
 
 # Ready to install version
 We always have ready to install version (via admin panel) at: [http://pl.seigi.eu/module/seigisecurecontact.html](http://pl.seigi.eu/module/seigisecurecontact.html)
