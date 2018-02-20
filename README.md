@@ -10,7 +10,8 @@ We always have ready to install version (via admin panel) at: [http://pl.seigi.e
 
 ## Available translations
 English (default)  
-Polish (translated)  
+Polish (translated)
+French (translated)
 **Feel free to submit translations by pull requests:)**
 
 # How it works
@@ -19,7 +20,9 @@ Polish (translated)
 
 # Requirements
 You need to have (or create) google account in order to obtain reCaptcha API KEYS. Without them your contact form will not work at all.
+https://www.google.com/recaptcha/admin
 
 # Important notice
+** You must remove cache/class_index.php after installation**
 Module is created on default Prestashop 1.5 theme and was tested on 1.6 theme  
 **After module installation, rememmber to test your contact form! We do not take responsibility, if you do not test it**
