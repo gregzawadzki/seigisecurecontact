@@ -19,6 +19,7 @@ Polish (translated)
 
 # Requirements
 You need to have (or create) google account in order to obtain reCaptcha API KEYS. Without them your contact form will not work at all.
+https://www.google.com/recaptcha/admin
 
 # Important notice
 Module is created on default Prestashop 1.5 theme and was tested on 1.6 theme  
