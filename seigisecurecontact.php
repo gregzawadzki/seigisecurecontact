@@ -19,7 +19,7 @@ class seigisecurecontact extends Module {
 	public function __construct() {
 		$this->name = 'seigisecurecontact';
 		$this->tab = 'frontend';
-		$this->version = '1.1.1';
+		$this->version = '1.1.2';
 
 		$this->author = 'SEIGI Grzegorz Zawadzki';
 		// Min 1.5 and all 1.6 Absolutely not compatible with 1.7 
