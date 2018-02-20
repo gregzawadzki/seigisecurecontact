@@ -22,7 +22,9 @@ class seigisecurecontact extends Module {
 		$this->version = '1.1.1';
 
 		$this->author = 'SEIGI Grzegorz Zawadzki';
-		$this->ps_versions_compliancy = array('min' => '1.5', 'max' => '1.7');
+		// Min 1.5 and all 1.6 Absolutely not compatible with 1.7 
+		// Do not try!, 1.7 contact form is module and cannot be overriden
+		$this->ps_versions_compliancy = array('min' => '1.5', 'max' => '1.6.999');
 
 
 		parent::__construct();
