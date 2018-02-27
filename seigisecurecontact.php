@@ -82,30 +82,20 @@ class seigisecurecontact extends Module {
 	}
 	public function getContent() {
 		$output = null;
-
-		if (Tools::isSubmit('submit'.$this->name))
-		{
-			$conv_value = strval(Tools::getValue('SRECAP_SECRET'));
-			if (!$conv_value
-			  || empty($conv_value))
+		
+		
+		if (Tools::isSubmit('submit'.$this->name)) {
+			$srecap_secret = strval(Tools::getValue('SRECAP_SECRET'));
+			$srecap_public = strval(Tools::getValue('SRECAP_PUBLIC'));
+			if (!$srecap_secret || empty($srecap_secret) || !$srecap_public || empty($srecap_public)) {
 				$output .= $this->displayError($this->l('Invalid Configuration value'));
-			else
-			{
-				Configuration::updateValue('SRECAP_SECRET', $conv_value);
+			} else {
+				Configuration::updateValue('SRECAP_SECRET', $srecap_secret);
+				Configuration::updateValue('SRECAP_PUBLIC', $srecap_public);
 				$output .= $this->displayConfirmation($this->l('Settings updated'));
 			}
-			
-			$conv_value = strval(Tools::getValue('SRECAP_PUBLIC'));
-			if (!$conv_value
-			  || empty($conv_value))
-				$output .= $this->displayError($this->l('Invalid Configuration value'));
-			else
-			{
-				Configuration::updateValue('SRECAP_PUBLIC', $conv_value);
-				$output .= $this->displayConfirmation($this->l('Settings updated'));
-			}
-			
 		}
+
 		$output .= $this->displayForm();
 		$output .= '<div style="font-size: 1.3em; padding: 15px;">';
 		$output .= '<p>'.$this->l('This module adds Google reCaptcha scripts to your site. Your site must have google API access to use ReCaptcha').'</p>';
