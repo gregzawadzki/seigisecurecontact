@@ -9,9 +9,10 @@ It will display reCaptcha, but it will allow email being sent anyway
 We always have ready to install version (via admin panel) at: [http://pl.seigi.eu/module/seigisecurecontact.html](http://pl.seigi.eu/module/seigisecurecontact.html)
 
 ## Available translations
-English (default)  
+English (module code)  
 Polish (translated)  
 French (translated)  
+Slovak (translated) (bubmited by Jan Pupala)  
 **Feel free to submit translations by pull requests:)**
 
 # How it works
